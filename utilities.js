@@ -21,9 +21,9 @@ function toggle(id,btn_id){
     const all_btn=document.getElementsByClassName("btn")
     for(const btn of all_btn){
        if (btn.id===btn_id) {
-         btn.classList.add("bg-blue-700")      
+         btn.classList.add("bg-blue-700","text-white")      
        }else{
-        btn.classList.remove("bg-blue-700") 
+        btn.classList.remove("bg-blue-700","text-white") 
        }
        
     }
